@@ -5,12 +5,12 @@ from pathlib import Path
 __version__ = "0.1"
 
 
-def get_sample_data(fn):
+def get_sample_data(fn) -> str:
     here = Path(__file__).parent
     return str((here / "data" / fn).absolute())
 
 
-def get_sample_path(fn):
+def get_sample_path(fn) -> Path:
     here = Path(__file__).parent
     return (here / "data" / fn).absolute()
 
