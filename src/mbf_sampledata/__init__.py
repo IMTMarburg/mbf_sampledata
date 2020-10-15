@@ -2,7 +2,7 @@ import sys
 import pandas as pd
 from pathlib import Path
 
-__version__ = "0.1"
+__version__ = '0.2'
 
 
 def get_sample_data(fn) -> str:
